@@ -1,2 +1,2 @@
-android_device_sony_polux
-=========================
+android_device_sony_pollux
+========================
