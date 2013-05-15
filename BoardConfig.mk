@@ -19,7 +19,7 @@
 -include vendor/sony/pollux/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := C6907,SGP311,SGP312,SGP321,Pollux,pollux
+TARGET_OTA_ASSERT_DEVICE := SGP321,Pollux,pollux
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/pollux/include
 
