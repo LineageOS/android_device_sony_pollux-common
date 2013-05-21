@@ -15,17 +15,9 @@
 # inherit from the common fusion3 definitions
 -include device/sony/fusion3-common/BoardConfigCommon.mk
 
-# inherit from the proprietary version
--include vendor/sony/pollux/BoardConfigVendor.mk
+TARGET_SPECIFIC_HEADER_PATH += device/sony/pollux-common/include
 
-# Assert
-TARGET_OTA_ASSERT_DEVICE := SGP321,Pollux,pollux
-
-TARGET_SPECIFIC_HEADER_PATH += device/sony/pollux/include
-
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/pollux/bluetooth
-
-TARGET_KERNEL_CONFIG := cm_fusion3_pollux_defconfig
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/pollux-common/bluetooth
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
