@@ -57,6 +57,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/etc/vold.fstab:system/etc/vold.fstab
 
+# Build IR App
+PRODUCT_PACKAGES += \
+    SonyOpenIR
+
 # call dalvik heap config
 $(call inherit-product-if-exists, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
 
