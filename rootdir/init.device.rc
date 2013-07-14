@@ -20,3 +20,9 @@ on boot
     chmod 660 /sys/class/leds/lm3533-green/pattern
     chown system system /sys/class/leds/lm3533-blue/pattern
     chmod 660 /sys/class/leds/lm3533-blue/pattern
+
+    # IR Blaster
+    chown system system /dev/ttyHSL2
+    chmod 660 /dev/ttyHSL2
+    chown system system /sys/devices/platform/ir_remote_control/enable
+    chmod 220 /sys/devices/platform/ir_remote_control/enable
