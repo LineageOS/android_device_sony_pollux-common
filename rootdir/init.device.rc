@@ -6,17 +6,3 @@ on boot
     # Panel backlight
     chown system system /sys/devices/i2c-0/0-002c/backlight/lcd-backlight/brightness
     chmod 660 /sys/devices/i2c-0/0-002c/backlight/lcd-backlight/brightness
-
-    # LED
-    chown system system /sys/class/leds/lm3533-red/brightness
-    chmod 660 /sys/class/leds/lm3533-red/brightness
-    chown system system /sys/class/leds/lm3533-green/brightness
-    chmod 660 /sys/class/leds/lm3533-green/brightness
-    chown system system /sys/class/leds/lm3533-blue/brightness
-    chmod 660 /sys/class/leds/lm3533-blue/brightness
-    chown system system /sys/class/leds/lm3533-red/pattern
-    chmod 660 /sys/class/leds/lm3533-red/pattern
-    chown system system /sys/class/leds/lm3533-green/pattern
-    chmod 660 /sys/class/leds/lm3533-green/pattern
-    chown system system /sys/class/leds/lm3533-blue/pattern
-    chmod 660 /sys/class/leds/lm3533-blue/pattern
