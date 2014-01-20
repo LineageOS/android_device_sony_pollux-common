@@ -6,3 +6,5 @@ on boot
     # Panel backlight
     chown system system /sys/devices/i2c-0/0-002c/backlight/lcd-backlight/brightness
     chmod 660 /sys/devices/i2c-0/0-002c/backlight/lcd-backlight/brightness
+
+    chown system system /sys/devices/virtual/input/clearpad/wakeup_gesture
