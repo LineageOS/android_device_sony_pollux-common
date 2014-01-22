@@ -19,6 +19,8 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/pollux-common/include
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/pollux-common/bluetooth
 
+BOARD_HARDWARE_CLASS := device/sony/pollux-common/cmhw
+
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
 
