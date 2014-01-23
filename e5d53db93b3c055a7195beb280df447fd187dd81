@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a57f1b5_ea2f83f4",
+        "filename": "GestureSettings/res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 7221
+      },
+      "writtenOn": "2014-01-23T02:37:20Z",
+      "side": 1,
+      "message": "\u0027Ontwaken door te tikken\u0027  (naar analogie met \u0027Ontwaken door volumeknoppen\u0027 en \u0027Ontwaken door lader\u0027)",
+      "revId": "e5d53db93b3c055a7195beb280df447fd187dd81",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_ca2ac7e7",
+        "filename": "GestureSettings/res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 7221
+      },
+      "writtenOn": "2014-01-23T02:37:20Z",
+      "side": 1,
+      "message": "\u0027Apparaat ontwaken door te dubbeltikken op het scherm\u0027 (naar analogie met \u0027Ontwaken door volumeknoppen\u0027)",
+      "revId": "e5d53db93b3c055a7195beb280df447fd187dd81",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_aa398b43",
+        "filename": "GestureSettings/res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 7221
+      },
+      "writtenOn": "2014-01-23T02:37:20Z",
+      "side": 1,
+      "message": "\u0027Slaapstand door te tikken\u0027",
+      "revId": "e5d53db93b3c055a7195beb280df447fd187dd81",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_4a3fb725",
+        "filename": "GestureSettings/res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 7221
+      },
+      "writtenOn": "2014-01-23T02:37:20Z",
+      "side": 1,
+      "message": "\u0027Slaapstand activeren door te dubbeltikken op het scherm\u0027",
+      "revId": "e5d53db93b3c055a7195beb280df447fd187dd81",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
