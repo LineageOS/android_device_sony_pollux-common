@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "3a57f1b5_ca5f2774",
+        "filename": "GestureSettings/res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-23T04:22:16Z",
+      "side": 1,
+      "message": "+1 Inderdaad beter :-)",
+      "parentUuid": "3a57f1b5_ea2f83f4",
+      "revId": "e5d53db93b3c055a7195beb280df447fd187dd81",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a57f1b5_ca2ac7e7",
         "filename": "GestureSettings/res/values-nl/strings.xml",
         "patchSetId": 5
@@ -30,6 +48,24 @@
       "writtenOn": "2014-01-23T02:37:20Z",
       "side": 1,
       "message": "\u0027Apparaat ontwaken door te dubbeltikken op het scherm\u0027 (naar analogie met \u0027Ontwaken door volumeknoppen\u0027)",
+      "revId": "e5d53db93b3c055a7195beb280df447fd187dd81",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_ea64634a",
+        "filename": "GestureSettings/res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-23T04:22:16Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "3a57f1b5_ca2ac7e7",
       "revId": "e5d53db93b3c055a7195beb280df447fd187dd81",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "3a57f1b5_8a592f91",
+        "filename": "GestureSettings/res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-23T04:22:16Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "3a57f1b5_aa398b43",
+      "revId": "e5d53db93b3c055a7195beb280df447fd187dd81",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a57f1b5_4a3fb725",
         "filename": "GestureSettings/res/values-nl/strings.xml",
         "patchSetId": 5
@@ -64,6 +118,24 @@
       "writtenOn": "2014-01-23T02:37:20Z",
       "side": 1,
       "message": "\u0027Slaapstand activeren door te dubbeltikken op het scherm\u0027",
+      "revId": "e5d53db93b3c055a7195beb280df447fd187dd81",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_aa5e6b74",
+        "filename": "GestureSettings/res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-23T04:22:16Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "3a57f1b5_4a3fb725",
       "revId": "e5d53db93b3c055a7195beb280df447fd187dd81",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
