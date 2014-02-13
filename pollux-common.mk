@@ -67,4 +67,4 @@ $(call inherit-product-if-exists, frameworks/native/build/tablet-10in-xhdpi-2048
 # call hwui memory config
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
-$(call inherit-product-if-exists, vendor/sony/pollux-common/pollux-common-vendor.mk)
+$(call inherit-product, vendor/sony/pollux-common/pollux-common-vendor.mk)
