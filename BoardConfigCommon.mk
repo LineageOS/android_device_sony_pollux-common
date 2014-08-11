@@ -19,6 +19,15 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/pollux-common/include
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/pollux-common/bluetooth
 
+# Dex-preoptimization to speed up first boot sequence
+ifeq ($(HOST_OS),linux)
+  ifeq ($(TARGET_BUILD_VARIANT),user)
+    ifeq ($(WITH_DEXPREOPT),)
+      WITH_DEXPREOPT := true
+    endif
+  endif
+endif
+
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
 
