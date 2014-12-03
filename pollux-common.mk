@@ -25,8 +25,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_CHARACTERISTICS := tablet
 
-PRODUCT_AAPT_CONFIG := normal large xlarge
-PRODUCT_AAPT_PREF_CONFIG := xlarge
+PRODUCT_AAPT_CONFIG := normal large hdpi
+PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # HW Settings
 PRODUCT_COPY_FILES += \
