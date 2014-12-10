@@ -23,6 +23,7 @@ PRODUCT_CHARACTERISTICS := tablet
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREBUILT_DPI := hdpi xhdpi mdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Device common specific overlays
