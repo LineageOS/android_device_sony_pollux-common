@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# inherit from the common fusion3 definitions
+# Inherit from the common fusion3 definitions
 include device/sony/fusion3-common/BoardConfigCommon.mk
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/pollux-common/include
@@ -28,5 +28,5 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2147483648
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12425608704
 BOARD_CACHEIMAGE_PARTITION_SIZE := 576716800
 
-DEVICE_RESOLUTION := 1920x1200
+# Override fusion3-common
 SOMC_CFG_SENSORS_PROXIMITY_APDS9702 := false
