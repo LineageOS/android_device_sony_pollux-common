@@ -27,6 +27,9 @@ PRODUCT_CHARACTERISTICS := tablet
 PRODUCT_AAPT_CONFIG := normal large hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=240
+
 # HW Settings
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/etc/hw_config.sh:system/etc/hw_config.sh \
