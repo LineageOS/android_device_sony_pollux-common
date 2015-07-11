@@ -19,6 +19,9 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/pollux-common/include
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/pollux-common/bluetooth
 
+# Healthd
+BACKLIGHT_PATH := /sys/class/leds/lm3533-lcd-bl/brightness
+
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
 
