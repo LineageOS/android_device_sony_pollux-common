@@ -1,5 +1,4 @@
 bin/efsks
-bin/illumination_service
 bin/qcks
 bin/updatemiscta
 etc/firmware/touch_module_id_0x3a.img
