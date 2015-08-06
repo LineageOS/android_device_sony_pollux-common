@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
     <item name="none">0</item>
-    <item name="screen.on">50</item>
+    <item name="screen.on">217</item>
     <item name="bluetooth.active">0.1</item>
-    <item name="bluetooth.on">1.0</item>
-    <item name="bluetooth.at">7.7</item>
-    <item name="screen.full">200</item>
-    <item name="wifi.on">2.7</item>
-    <item name="wifi.active">28</item>
+    <item name="bluetooth.on">1.5</item>
+    <item name="bluetooth.at">40</item>
+    <item name="screen.full">1162</item>
+    <item name="wifi.on">3.10</item>
+    <item name="wifi.active">51</item>
     <item name="wifi.scan">0.1</item>
     <item name="dsp.audio">0.1</item>
     <item name="dsp.video">0.1</item>
-    <item name="radio.active">213</item>
-    <item name="radio.scanning">17.0</item>
-    <item name="gps.on">50</item>
+    <item name="radio.active">360</item>
+    <item name="radio.scanning">24.0</item>
+    <item name="gps.on">42</item>
     <array name="radio.on">
-        <value>4.35</value>
-        <value>4.35</value>
-        <value>4.14</value>
-        <value>4.09</value>
-        <value>3.91</value>
+        <value>5.54</value>
+        <value>4.90</value>
+        <value>4.64</value>
+        <value>4.62</value>
+        <value>4.55</value>
     </array>
     <array name="cpu.speeds">
-        <value>192000</value>
         <value>384000</value>
         <value>486000</value>
         <value>594000</value>
@@ -36,23 +35,21 @@
         <value>1458000</value>
         <value>1512000</value>
     </array>
-    <item name="cpu.idle">2.0</item>
+    <item name="cpu.idle">3.5</item>
     <array name="cpu.active">
-        <value>145</value>
-        <value>153</value>
-        <value>157</value>
-        <value>161</value>
-        <value>166</value>
-        <value>170</value>
-        <value>174</value>
-        <value>178</value>
-        <value>195</value>
-        <value>212</value>
-        <value>230</value>
-        <value>249</value>
-        <value>258</value>
+        <value>105.1</value>
+        <value>117.6</value>
+        <value>134</value>
+        <value>149.6</value>
+        <value>172.6</value>
+        <value>197.2</value>
+        <value>220.8</value>
+        <value>259.8</value>
+        <value>272.5</value>
+        <value>306.5</value>
+        <value>334.6</value>
+        <value>350.4</value>
     </array>
-    <item name="cpu.awake">103.5</item>
-    <item name="cpu.wakeup">140</item>
-    <item name="battery.capacity">2300</item>
+    <item name="cpu.awake">105.1</item>
+    <item name="battery.capacity">6000</item>
 </device>
