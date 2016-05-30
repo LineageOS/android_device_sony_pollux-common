@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2013-2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,54 +12,27 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit the fusion-common definitions
-$(call inherit-product, device/sony/fusion3-common/fusion3.mk)
-
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-
-# These are the hardware-specific features
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml
-
-PRODUCT_CHARACTERISTICS := tablet
-
-# Screen
+# Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=240
+# Product type
+PRODUCT_CHARACTERISTICS := tablet
 
-# HW Settings
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/system/etc/hw_config.sh:system/etc/hw_config.sh \
-    $(LOCAL_PATH)/rootdir/system/etc/pre_hw_config.sh:system/etc/pre_hw_config.sh
+# Device specific overlays
+DEVICE_PACKAGE_OVERLAYS += device/sony/pollux-common/overlay
 
-# Sensors
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/system/etc/sensors.conf:system/etc/sensors.conf
+# Device product elements
+include $(LOCAL_PATH)/product/*.mk
 
-# Audio
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/system/etc/audio_policy.conf:system/etc/audio_policy.conf \
-    $(LOCAL_PATH)/rootdir/system/etc/mixer_paths.xml:system/etc/mixer_paths.xml
-
-# Thermal monitor configuration
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/system/etc/thermanager.xml:system/etc/thermanager.xml
-
-# Touchpad
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/system/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc
-
-# USB function switching
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/init.sony.usb.rc:root/init.sony.usb.rc
-
-# call dalvik heap config
+# Dalvik heap configurations
 $(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
 
-# call hwui memory config
+# HWUI memory configurations
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
+# Common platform configurations
+$(call inherit-product, device/sony/fusion3-common/common.mk)
+
+# Vendor product configurations
 $(call inherit-product, vendor/sony/pollux-common/pollux-common-vendor.mk)
