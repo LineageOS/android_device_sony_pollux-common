@@ -22,7 +22,7 @@ DEVICE_COMMON_PATH := device/sony/pollux-common
 PRODUCT_CHARACTERISTICS := tablet
 
 # Screen density
-PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_CONFIG := xlarge
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Device common specific overlays
