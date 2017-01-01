@@ -22,4 +22,4 @@ set -e
 export DEVICE_COMMON=fusion3-common
 export VENDOR=sony
 
-./../$DEVICE_COMMON/extract-files.sh $@
+./../$DEVICE_COMMON/setup-makefiles.sh
