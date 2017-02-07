@@ -22,5 +22,10 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/pollux-common/bluetoo
 # Healthd
 BACKLIGHT_PATH := /sys/class/leds/lm3533-lcd-bl/brightness
 
+# TWRP
+TW_THEME := landscape_hdpi
+TW_BRIGHTNESS_PATH := /sys/class/leds/lm3533-lcd-bl/brightness
+BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
+
 # Partition sizes
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12425608704
