@@ -1,4 +1,6 @@
+#
 # Copyright (C) 2013 The CyanogenMod Project
+#           (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -11,16 +13,16 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
 
-# Inherit from the common fusion3 definitions
+# Device common path
+COMMON_PATH := device/sony/pollux-common
+
+# Device common headers
+TARGET_SPECIFIC_HEADER_PATH += $(COMMON_PATH)/include
+
+# Board common elements
 include device/sony/fusion3-common/BoardConfigCommon.mk
 
-TARGET_SPECIFIC_HEADER_PATH += device/sony/pollux-common/include
-
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/pollux-common/bluetooth
-
-# Healthd
-BACKLIGHT_PATH := /sys/class/leds/lm3533-lcd-bl/brightness
-
-# Partition sizes
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 12425608704
+# Device common elements
+include $(COMMON_PATH)/board/*.mk
