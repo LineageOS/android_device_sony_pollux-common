@@ -13,9 +13,6 @@ vendor/camera/LGI08BN2.dat
 vendor/camera/product.dat
 vendor/camera/SEM02BN0_IMX132.dat
 
-# Sensors
-bin/illumination_service
-
 # TA
 bin/updatemiscta
 
