@@ -35,9 +35,6 @@ $(call inherit-product, device/sony/fusion3-common/common.mk)
 # Dalvik heap configurations
 $(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
 
-# Hwui memory configurations
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
-
 # Device common product elements
 include $(DEVICE_COMMON_PATH)/product/*.mk
 
