@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2012-2013 The CyanogenMod Project
- * Copyright (C) 2017 The LineageOS Project
+ * Copyright (C) 2017-2019 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,6 +15,6 @@
  * limitations under the License.
  */
 
-#define LCD_FILE                    "/sys/devices/i2c-0/0-002c/backlight/lcd-backlight/brightness"
-#define MAX_BRIGHTNESS_FILE         "/sys/devices/i2c-0/0-002c/backlight/lcd-backlight/max_brightness"
-#define LCD_BRIGHTNESS_MIN          10
+const static std::string kLcdBacklightPath = "/sys/devices/i2c-0/0-002c/backlight/lcd-backlight/brightness";
+const static std::string kLcdMaxBacklightPath = "/sys/devices/i2c-0/0-002c/backlight/lcd-backlight/max_brightness";
+static constexpr int LCD_MIN_BRIGHTNESS = 10;
